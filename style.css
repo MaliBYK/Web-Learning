@@ -1,0 +1,12 @@
+.btn-primary:focus{
+    box-shadow: none;
+}
+.btn-primary:active{
+    box-shadow: none;
+}
+.btn-primary{
+    box-shadow: none;
+}
+.btn-primary:hover{
+    box-shadow: none;
+}
