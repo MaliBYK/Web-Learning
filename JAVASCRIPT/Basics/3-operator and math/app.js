@@ -24,4 +24,3 @@ value = value.toLocaleUpperCase();
 value = value.replace(" ", ".");
 
 console.log(typeof value);
-console.log("Value " + value);
