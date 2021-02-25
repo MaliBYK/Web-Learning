@@ -13,4 +13,5 @@ const todoHeader = document.getElementById("tasks-title");
 todoInput.addEventListener("keyup", run);
 function run(e) {
   todoHeader.textContent = e.target.value;
+  e.target.style.color = "red";
 }
