@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Muhammet Ali",
+    "department": "Computer Science",
+    "salary": "30000"
+  },
+  {
+    "name": "Muhammet",
+    "department": "Web Development",
+    "salary": "40000"
+  },
+  {
+    "name": "Ali",
+    "department": "Software Engineer",
+    "salary": "20000"
+  }
+]
