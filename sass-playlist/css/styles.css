@@ -1,0 +1,164 @@
+body {
+  background: #f8f9fb;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#main-nav {
+  background: #032f3e;
+  min-width: 100%;
+  height: 4rem;
+}
+
+#main-nav .wrapper {
+  padding: 0.5rem;
+  width: 100%;
+  min-height: 100%;
+}
+
+#main-nav .wrapper ul {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#main-nav .wrapper ul li {
+  min-height: 100%;
+  width: 16.66667%;
+  margin-left: 1rem;
+  text-align: center;
+  list-style: none;
+}
+
+#main-nav .wrapper ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#main-nav .wrapper ul li:hover {
+  background-color: #044156;
+}
+
+section h1 {
+  font-size: 24px;
+  color: #032f3e;
+}
+
+.lead-banner {
+  max-width: 100%;
+  position: relative;
+  color: white;
+}
+
+.lead-banner .banner-content {
+  position: absolute;
+  right: 5rem;
+  top: 4rem;
+}
+
+.lead-banner .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.lead-banner img {
+  width: 100%;
+}
+
+.lead-banner .title {
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: lighten;
+  margin-bottom: 1.5rem;
+}
+
+.lead-banner .sub-title {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.lessons-banner {
+  max-width: 100%;
+  position: relative;
+  color: white;
+}
+
+.lessons-banner .banner-content {
+  position: absolute;
+  right: 5rem;
+  top: 4rem;
+}
+
+.lessons-banner .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.lessons-banner img {
+  width: 100%;
+}
+
+.lessons-banner .title {
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: lighten;
+  margin-bottom: 1.5rem;
+}
+
+.lessons-banner .sub-title {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.lessons-banner ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.lessons-banner li {
+  margin-top: 3rem;
+  font-size: 2.75rem;
+}
+
+.lessons-banner .banner-content {
+  left: 3rem;
+}
